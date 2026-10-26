@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 API_ID = os.environ.get("API_ID")
 API_HASH = os.environ.get("API_HASH")
-default_thumb = "https://github.com/Soebb/own-utube-stream-link-gen/raw/main/default_thumbnail.jpg"
+default_thumb = "https://github.com/Soebb/own-yt-streaming-bot/raw/main/default_thumbnail.jpg"
 
 Bot = Client(
     "Own-ST-Bot",
@@ -25,7 +25,7 @@ Send a YouTube URL to get started.
 
 START_BTN = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Source Code', url='https://github.com/Soebb/own-utube-stream-link-gen'),
+        InlineKeyboardButton('Source Code', url='https://github.com/Soebb/'),
         ]]
     )
 
